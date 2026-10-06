@@ -1,0 +1,53 @@
+# ==========================================
+# 微信音频转语音助手 (WeChat Voice Helper)
+# .gitignore
+# ==========================================
+
+# 安装包与大二进制文件 (严禁推送到远程仓库)
+WeChatWin_*.exe
+*.exe
+*.zip
+*.7z
+*.rar
+vbcable_installer/
+
+# 运行时临时上传与音频缓存
+uploads/*
+!uploads/.gitkeep
+temp/
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.silk
+*.pcm
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# 操作系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 内部 Agent 与临时工作区
+.agents/
+scratch/

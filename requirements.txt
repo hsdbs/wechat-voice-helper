@@ -1,0 +1,3 @@
+pygame>=2.5.0
+imageio-ffmpeg>=0.4.9
+comtypes>=1.2.0
